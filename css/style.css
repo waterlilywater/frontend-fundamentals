@@ -18,29 +18,29 @@ body {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 24px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 25px;
-  color: #4CD964;
+  font-size: 22px;
+  color: #008000;
 }
 
 h4 {
-  font-size: 20px;
-}
-
-p {
   font-size: 16px;
 }
 
+p {
+  font-size: 14px;
+}
+
 header {
-  background-color: #4CD964;
+  background-color: #008000;
   color: #FFFFFF;
   text-align: center;
   padding: 1em 0;
@@ -53,16 +53,37 @@ header a {
   font-weight: bold;
   width: 9%;
   display: inline-block;
+  vertical-align: middle;
 }
 
 header h1 {
-    width: 90%;
+  width: 89%;
+  display: inline-block;
+  margin-left: -5%;
+  margin-top: 6px;
+}
+
+.phoneBar {
+    margin-top: -13px;
+    margin-bottom: 7px;
+}
+
+.phoneBar .column {
+    width: 32%;
     display: inline-block;
+}
+
+.phoneBar .column:first-of-type {
+    text-align: left;
+}
+
+.phoneBar .column:last-of-type {
+    text-align: right;
 }
 
 main ul li {
   border-top: 1px solid #C0C0C0;
-  padding: 3em 3%;
+  padding: .5em 3%;
 }
 
 .map img {
@@ -71,16 +92,15 @@ main ul li {
 
 section.container h3 {
   margin: .2em 1.7%;
-  font-size: 30px;
 }
 
 .busStationSymbol {
   color: #FFFFFF;
-  background-color: #4CD964;
-  font-size: 35px;
+  background-color: #008000;
+  font-size: 22px;
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  width: 55px;
+  height: 55px;
   padding-top: 18px;
   text-align: center;
   display: inline-block;
@@ -89,7 +109,7 @@ section.container h3 {
 .busDetails {
     display: inline-block;
     vertical-align: middle;
-    width: 90%;
+    width: 83%;
 }
 
 .top {
@@ -101,19 +121,30 @@ section.container h3 {
   padding-left: 2%;
 }
 
-.top h2, .bottom h4 {
+.top h2 {
+    width: 73%;
+    display: inline-block;
+}
+
+.top h4 {
+  text-align: right;
+  width: 25%;
+  display: inline-block;
+}
+
+.bottom h4 {
     width: 49%;
     display: inline-block;
 }
 
-.top h4, .bottom p {
+.bottom p {
     text-align: right;
     width: 49%;
     display: inline-block;
 }
 
 .upcomingArrivals {
-  color: #4CD964;
+  color: #008000;
   text-transform: capitalize;
   font-weight: bold;
 }
